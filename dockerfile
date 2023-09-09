@@ -14,7 +14,7 @@ RUN apt-get update && apt-get install -y \
 
 RUN git clone https://github.com/Jagadt/mysampleapp.git
 
-RUN pip3 install -r requirements.txt
+RUN pip3 install streamlit streamlit_chat langchain sentence_transformers
 
 EXPOSE 8501
 
